@@ -1,0 +1,77 @@
+/**/
+/* style.css */
+
+/* Base App Container */
+body {
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 380px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+/* Top Header Area with Gradient */
+.app-header {
+    background: linear-gradient(135deg, #5d72e4, #b457f9);
+    padding: 35px 20px;
+    text-align: center;
+    color: white;
+}
+
+.app-header h1 { margin: 0; font-size: 26px; font-weight: 700; }
+.app-header p { margin: 5px 0 0; font-size: 14px; opacity: 0.8; }
+
+/* Content Body */
+.app-content { padding: 25px 20px; }
+
+.input-label { font-weight: 600; color: #444; margin-bottom: 10px; display: block; }
+
+/* Input Box with Icon style */
+.input-wrapper { position: relative; margin-bottom: 20px; }
+input[type="text"] {
+    width: 100%;
+    padding: 14px 14px 14px 40px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #fafafa;
+}
+
+/* Purple Button style */
+.btn-fetch {
+    background-color: #7b61ff;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(123, 97, 255, 0.3);
+    margin-bottom: 25px;
+}
+
+/* Result Rows style */
+.data-table { width: 100%; border-collapse: collapse; }
+.data-table tr { border-bottom: 1px solid #f0f0f0; }
+.data-table th { text-align: left; padding: 15px 5px; color: #888; font-weight: 400; width: 45%; }
+.data-table td { text-align: right; padding: 15px 5px; color: #333; font-weight: 600; }
+
+.celsius-highlight { color: #7b61ff; font-size: 15px; }
+
+.footer-credit { text-align: center; font-size: 11px; color: #bbb; padding: 20px; }
